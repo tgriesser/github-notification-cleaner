@@ -1,0 +1,11 @@
+{
+  "name": "github-notification-cleaner",
+  "description": "Clear all merged / closed GitHub PR/tickets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tim Griesser",
+  "license": "MIT",
+  "devDependencies": {
+    "webextension-polyfill": "^0.2.1"
+  }
+}

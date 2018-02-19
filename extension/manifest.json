@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "manifest_version": 2,
+  "name": "Github Notification Cleaner",
+  "description": "Clear all merged / closed GitHub PR/tickets",
+  "browser_action": {
+    "default_icon": "assets/48.png",
+    "default_title": "Notification Cleaner",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "assets/16.png",
+    "48": "assets/48.png",
+    "128": "assets/128.png"
+  },
+  "background": {
+    "scripts": [
+      "node_modules/webextension-polyfill/dist/browser-polyfill.js",
+      "scripts/background.js"
+    ]
+  },
+  "permissions": ["contextMenus", "activeTab"]
+}
