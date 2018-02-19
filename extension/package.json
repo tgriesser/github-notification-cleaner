@@ -1,8 +1,7 @@
 {
   "name": "github-notification-cleaner",
-  "description": "Clear all merged / closed GitHub PR/tickets",
+  "description": "Web Extension to clear all merged / closed GitHub PR/tickets",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Tim Griesser",
   "license": "MIT",
   "devDependencies": {

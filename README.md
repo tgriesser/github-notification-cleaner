@@ -4,20 +4,28 @@ One click removes GitHub notifications for PR's that have been merged, issues th
 
 Doesn't require any special permissions, uses the [activeTab](https://developer.chrome.com/extensions/activeTab) to only enable on click.
 
-Uses [webextension-polyfill](https://github.com/mozilla/webextension-polyfill) to enable install in Firefox, Edge, and Chrome
+Uses [webextension-polyfill](https://github.com/mozilla/webextension-polyfill) to enable install in Firefox, Edge, and Chrome.
 
-Build / Install Locally:
+### Webstore Install
+
+[Chrome Websote](https://chrome.google.com/webstore/detail/github-notification-clean/nmkolhkahadeccilmcgojcdmjihhakbg)
+Firefox: TODO
+
+### Build / Install Locally:
 
 ```
 cd extension
 yarn
 ```
 
-Chrome:
+#### Chrome:
+
 [chrome://extensions](chrome://extensions)
 Enable "Developer Mode"
 Click "Load Unpacked Extension"
 
-Firefox:
+#### Firefox:
+
 [about:debugging](about:debugging)
 "Load Temporary Add-on"
+Select any of the
